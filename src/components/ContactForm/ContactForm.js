@@ -5,7 +5,7 @@ import styles from './ContactForm.module.css';
 
 class ContactForm extends Component {
   static propTypes = {
-    handleSubmit: PropTypes.func,
+    onSubmit: PropTypes.func,
   };
 
   state = {
